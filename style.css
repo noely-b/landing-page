@@ -1,1 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI';
+  background: lightgray;
+  color: black;
+}
 
+h1 {
+  background: darkcyan;
+  color: #343c60;
+  padding: 20px;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 0;
+}
+
+nav {
+  background: lightblue;
+  color: white;
+  padding: 10px;
+  
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+h2 {
+  color: darkcyan;
+  text-align: center;
+  font-size: x-large;
+}
+
+p {
+  font-style: 'Calibri';
+}
+
+footer {
+  background: darkcyan;
+  color: white;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: x-small;
+  text-align: center;
+}
+
+#services {
+    padding: 20px;
+    font-style: italic;
+}
+
+nav a:hover {
+  background: whitesmoke;
+}
+
+#services li:hover {
+  background: whitesmoke;
+  cursor: pointer;
+}
